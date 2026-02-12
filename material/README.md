@@ -7,10 +7,10 @@ _efectivamente_ vimos en clase, vean la “bitácora” mes a mes:
 
 ## Bitácora _real_
 
-1. Temas presentados durante el [./febrero.org](mes de febrero)
-2. Temas presentados durante el [./marzo.org](mes de marzo)
-3. Temas presentados durante el [./abril.org](mes de abril)
-4. Temas presentados durante el [./mayo.org](mes de mayo)
+1. Temas presentados durante el [mes de febrero](./febrero/README.md)
+2. Temas presentados durante el [mes de marzo](./marzo/README.md)
+3. Temas presentados durante el [mes de abril](./abril/README.md)
+4. Temas presentados durante el [mes de mayo](./mayo/README.md)
 
 ## *Unidad 1*: Introducción a la seguridad de la información
 
