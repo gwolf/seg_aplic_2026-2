@@ -49,3 +49,40 @@
      móviles: [Physical Layer Security in Wireless Networks: A
      Tutorial](https://ieeexplore.ieee.org/iel5/7742/5751283/05751298.pdf)
      (Shiu, Chang, Wu, Huang, Chen 2011).
+5. `2026.02.16`
+   Discusión acerca de lo que presenta el texto de _Tillwick y Olivier_
+   mencionado la clase anterior.
+   - **Políticas y mecanismos** ⇒ Qué y cómo. Especificación, diseño e implementación.
+   - **Evolución histórica** de los retos de seguridad en cómputo
+
+     - _1940s/1950s_: El centro de datos y las mainframes; acceso
+       físico. Seguridad como controles procedimentales y humanos;
+       protección contra fallos, no ataques
+
+	 - _1960s/1970s_: Inicios del _tiempo compartido_. Papel del sistema
+	   operativo en tanto guardián. **CTSS** (1961): Contraseñas (para
+	   _contabilidad_ sobre todo). Control de acceso a archivos para evitar
+	   eliminaciones _accidentales_. **MULTICS** (1965): Acceso remoto. De
+	   protección contra _errores_ a protección contra _usuarios_. Anillos
+	   de protección. ACLs. Seguridad como _requisito de diseño_. Primer
+	   virus teórico → Creeper.
+
+     - _1980s_: Cómputo personal, LANs, BBSes. 1988: Morris. Viruses →
+       Brain, Jerusalem, Stoned. Sistemas operativos personales _sin
+       concepto de protección_. Equipos CERT/CC.
+
+   Algunas lecturas para revisar en clase o posteriormente:
+   - [The First Computer Virus of Bob
+     Thomas](https://www.historytools.org/inventions/the-first-computer-virus-of-bob-thomas):
+     Una de las reseñas más completas y con más ángulos abordados respecto
+     al gusano _Creeper_, de 1971.
+   - El tema me puso a leer acerca de víruses tempranos. Encontré
+     información bastante interesante en [The Virus
+     Encyclopedia](http://virus.wikidot.com/).
+   - El primer virus realmente reconocible como tal es de 1984, y si no me
+     equivoco, es el objeto de la [tesis doctoral presentada por Fred
+     Cohen](https://all.net/books/DissertationOCR.pdf), asesorado por
+     Leonard Adleman.
+   - Fred Cohen escribió un libro en 1990, que está completo disponible en
+     su sitio, llamado [A Short Course on Computer
+     Viruses](https://all.net/books/virus/SCVirusOCR.pdf)
