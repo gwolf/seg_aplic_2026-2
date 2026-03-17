@@ -142,3 +142,14 @@
       demasiado general,
       p.ej. [CWE-1076](https://cwe.mitre.org/data/definitions/1076.html),
       [CWE-1101](https://cwe.mitre.org/data/definitions/1101.html)).
+
+4. `2026.03.12`
+
+   **Tipos de ataque**
+
+	Comenzamos a desarrollar este tema siguiendo el material que tengo en
+    el repositorio de Inv. Económicas: [Tipos de
+    ataque](https://ru.iiec.unam.mx/4047/1/tipos_de_ataque.pdf)
+	
+	En esta sesión hablamos de diferentes aspectos de las negaciones de
+    servicio.
