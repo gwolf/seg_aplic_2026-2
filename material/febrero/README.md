@@ -139,21 +139,15 @@
      [NIST SP 800-30
      Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final).
 
-2. `2026.02.26`
-
-    Los procesos de evaluación y análisis de estos documentos de NIST SP
-    800 son muy completos, pero también demasiado “pesados” ⇒ metodología
-    OCTAVE (/Operationally Critical Threat, Asset and Vulnerability
-    Evaluation/; Caralli, R. A., Stevens, J. F., Young, L. R., & Wilson,
-    W. R. (2007). Introducing OCTAVE Allegro: Improving the Information
-    Security Risk Assessment Process. Software Engineering Institute,
-    Carnegie Mellon University.), orientada en los activos de información y
-    la organización, orientado a que el proceso se realice internamente (no
-    con auditor extenro), dando prioridad al contexto operativo por sobre
-    la estandarización. [Introducing OCTAVE Allegro: Improving the
-    Information Security Risk Assessment
-    Process](https://www.sei.cmu.edu/library/introducing-octave-allegro-improving-the-information-security-risk-assessment-process/).
-
-	Abordamos además informalmente temas (levemente) relacionados:
-    Consideraciones de la _protección de datos personales_, procesos que se
-    siguen en proyectos, etc.
+	 Los procesos de evaluación y análisis de estos documentos de NIST SP
+     800 son muy completos, pero también demasiado “pesados” ⇒ metodología
+     OCTAVE (/Operationally Critical Threat, Asset and Vulnerability
+     Evaluation/; Caralli, R. A., Stevens, J. F., Young, L. R., & Wilson,
+     W. R. (2007). Introducing OCTAVE Allegro: Improving the Information
+     Security Risk Assessment Process. Software Engineering Institute,
+     Carnegie Mellon University.), orientada en los activos de información
+     y la organización, orientado a que el proceso se realice internamente
+     (no con auditor extenro), dando prioridad al contexto operativo por
+     sobre la estandarización. [Introducing OCTAVE Allegro: Improving the
+     Information Security Risk Assessment
+     Process](https://www.sei.cmu.edu/library/introducing-octave-allegro-improving-the-information-security-risk-assessment-process/).
