@@ -124,7 +124,8 @@ Si el servidor permite la ejecución de scripts, es posible enviar un payload co
 <img width="700" height="316" alt="clientSideCracking" src="https://github.com/user-attachments/assets/f0c2ed88-91b6-48c9-a215-8239a80a2e37" />
 
 
-## close teh attack surface
+Cerramos el contenedor (superficie de ataque)
+
 `sudo docker stop apache-vuln`
 
 ## gamma. Análisis de mitigaciones.
