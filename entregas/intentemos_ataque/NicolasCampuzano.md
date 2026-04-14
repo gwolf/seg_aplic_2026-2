@@ -100,7 +100,8 @@ httpd -k restart
 sleep 5
 httpd -k restart
 ```
-<img width="873" height="383" alt="serverSideSadness" src="https://github.com/user-attachments/assets/a3558328-4f1f-43d7-a651-45ef9fb595d1" />
+<img width="873" height="383" alt="serverSideSadness" src="https://github.com/user-attachments/assets/cd1f4125-255f-4b28-bd4b-b77c62a47761" />
+
 
 
 ### 4. Explotación controlada
@@ -112,7 +113,7 @@ El ataque es muy sencillo, una vez identificado un servidor mal configurado y vu
 
 
 
-<img width="463" height="92" alt="traversal2" src="https://github.com/user-attachments/assets/572d3d6c-0e44-4ff3-bf57-8d2d21efbf1f" />
+<img width="463" height="92" alt="traversal2" src="https://github.com/user-attachments/assets/49dc5314-f059-4312-893e-b168b9c9623d" />
 
 
 Si el servidor permite la ejecución de scripts, es posible enviar un payload con código arbitrario al shell del servidor
@@ -137,7 +138,7 @@ Un mecanismo que evita que este ataque llegue a la ejecución de código arbitra
 <img width="881" height="51" alt="serverSideFix1" src="https://github.com/user-attachments/assets/7e15cbb9-9f1b-4c74-b263-b7392fcb9c40" />
 
 
-<img width="470" height="98" alt="foiled1" src="https://github.com/user-attachments/assets/98c26595-229e-45bf-a3f9-c59f6389c56a" />
+<img width="470" height="98" alt="foiled1" src="https://github.com/user-attachments/assets/76e4e9b0-24a8-4a4f-9228-ae1a472b0628" />
 
 
 ### eta. Reflexión personal
