@@ -40,7 +40,7 @@
     - [Lockheed Martin Cyber Kill
       Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
       (_Cadena de Ataque Cibernético_) desarrollado como parte del modelo
-      /Intelligence Driven Defense/ para identificar y prevenir actividad
+      _Intelligence Driven Defense_ para identificar y prevenir actividad
       de intrusiones (2011). Identifica los pasos que un adversario debe
       seguir para montar un reto APT (/Advanced Persistent Threat/), para
       ayudar al defensor a _romper la cadena_:
@@ -81,8 +81,8 @@
 
     - [MITRE ATT&CK](https://attack.mitre.org/) _Adversarial Tactics,
       Techniques, and Common Knowledge_ (2013–, actualización bianual)
-      detalla técnicas para distintos entornos, describiendo el /cómo/ y
-      /por qué/ de /cada paso/ en el ciclo de vida de un ataque.
+      detalla técnicas para distintos entornos, describiendo el _cómo_ y
+      _por qué_ de _cada paso_ en el ciclo de vida de un ataque.
 
 	  Surge de cierta manera reaccionando ante el _Cyber Kill Chain_,
       describiendo el modelo de ataque ya no como una _cadena_, sino como
@@ -142,3 +142,72 @@
       demasiado general,
       p.ej. [CWE-1076](https://cwe.mitre.org/data/definitions/1076.html),
       [CWE-1101](https://cwe.mitre.org/data/definitions/1101.html)).
+
+## Unidad 3: Tipos de ataque
+
+1. `2026.03.12`
+
+   **Tipos de ataque**
+
+	Comenzamos a desarrollar este tema siguiendo el material que tengo en
+    el repositorio de Inv. Económicas: [Tipos de
+    ataque](https://ru.iiec.unam.mx/4047/1/tipos_de_ataque.pdf)
+	
+	En esta sesión hablamos de diferentes aspectos de las **negaciones de
+    servicio** (DoS):
+	- Directo (saturación de ancho de banda)
+	- Abuso de la pila de red (_SYN flood_)
+	- Saturación de aplicación por solicitudes simples
+	- Amplificación y reflexión
+    - Negaciones de servicio distribuidas (DDoS) → _botnets_ y otros
+      mecanismos de _Command and Control_
+    - Negación de servicio a puntos únicos de fallo (SPoF) en
+      infraestructuras compuestas
+
+2. `2026.03.17`
+
+	Nos adentramos un poco en el mágico mundo de los _desbordamientos_:
+
+	- ¿Qué es un desbordamiento de _buffer_? (caso específico: de _cadenas_
+      - ¿Qué es una cadena en C?
+	- Estructura básica de los procesos: Texto, datos, _heap_ y _stack_
+    - Uso del depurador (`gdb`) para inspeccionar la memoria de un proceso
+      _vivo_ y diseccionar un _ataque de desbordamiento de buffer_
+    - Desbordamientos de pila: En los 1990s (saltar ejecutando hacia
+      adentro del buffer) y hoy (sobreescritura de variables adyacentes,
+      control _muy limitado_ del flujo de ejecución
+      - Concepto de _return oriented programming_ (ROP)
+    - Desbordamientos de enteros
+
+3. `2026.03.19`
+
+    - Desbordamientos de otros tipos de datos: Tiempo (Y2K, Y2K38...)
+
+	Pasamos a hablar de las _inyecciones_
+
+	- Buscar las _costuras_ entre distintos _materiales_ 😉
+    - Inyecciones de SQL (y algunas mitigaciones)
+      - Escapar las cadenas
+	  - Cadenas preparadas
+
+4. `2026.03.24`
+
+    - Inyecciones de SQL (y algunas mitigaciones)
+	  - Cadenas preparadas
+	  - Mapeadores objeto-relacionales (ORMs)
+    - Otras inyecciones
+	  - Inyección de JavaScript, CSS en elementos HTML (_primera
+        probadita_)
+
+5. `2026.03.26`
+
+    - Ingeniería social como _inyección_ de tipo de contenido
+	  - ¿Cómo se determina el _tipo_ de un archivo?
+	  - Ejemplos en que se oculta el verdadero tipo de un archivo al
+        usuario (en nombre de la usabilidad)
+    - Otras inyecciones
+	  - Inyecciones de objetos → serialización — `pickle`,
+        `Data::Dumper`. 
+      - Alternativas (imperfectas): `JSON`, `YAML`
+    - Planteamiento del ejercicio práctico: [¡Intentemos un
+      ataque!](../../entregas/intentemos_ataque/README.md)
