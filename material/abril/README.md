@@ -208,6 +208,12 @@
        introducida estuvo presente sólo en las versiones 5.6.0 y 5.6.1, que
        no llegaron a ninguna distribución estable de Linux (aunque sí a la
        rama de desarrollo de varias distribuciones).
+	   
+	   Mis alumnos de licenciatura Isaac Jareth Campos y Alejandro Martínez
+       hicieron una bastante buena presentación sobre el [ataque a la
+       cadena de suministro con
+       xz](https://www.youtube.com/watch?v=YtLjNY7TWfM). Los invito a
+       verla.
 
      - 2026: eScan updates. La compañíá de antivirus _eScan_ fue
        comprometida; los atacantes se hicieron del control de servidores
