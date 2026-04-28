@@ -159,6 +159,8 @@
        [GreenDispenser](https://www.proofpoint.com/us/threat-insight/post/Meet-GreenDispenser)
        (Thoufique Haq, 2015)
 
+7. `2026.04.28`
+
      - 2020: Filtrado de datos del gobierno de EUA con Solarwinds, mediante
        la consola de administración de red _“Orion“_
 	   - [SolarWinds, Probably Hacked by Russia, Serves White House,
@@ -181,6 +183,9 @@
        Control](https://socket.dev/blog/massive-npm-malware-campaign-leverages-ethereum-smart-contracts)
        (Pandya et al., 2024). [Algunos de los nombres utilizados en la
        campaña](https://gist.github.com/masteryoda101/d4e90eb8004804d062bc04cf1aec4bc0).
+
+	 - [Shai Hulud y la “nueva ola” de ataques a
+       NPM](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
 
      - 2024: puerta trasera en _XZ Utils_
 
