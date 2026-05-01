@@ -216,6 +216,12 @@
        cadena de suministro con
        xz](https://www.youtube.com/watch?v=YtLjNY7TWfM). Los invito a
        verla.
+	   
+	   Hay un _pre-print_ en Arxiv que parece estar muy completo e
+       interesante; en clase lo vimos muuuuuy por encimita, pero vale la
+       pena la referencia:[Wolves in the Repository: A Software Engineering
+       Analysis of the XZ Utils Supply Chain
+       Attack](https://arxiv.org/html/2504.17473v1)
 
      - 2026: eScan updates. La compañíá de antivirus _eScan_ fue
        comprometida; los atacantes se hicieron del control de servidores
