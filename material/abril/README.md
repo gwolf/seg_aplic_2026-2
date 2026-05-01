@@ -187,6 +187,8 @@
 	 - [Shai Hulud y la “nueva ola” de ataques a
        NPM](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
 
+8. `2026.04.30`
+
      - 2024: puerta trasera en _XZ Utils_
 
 	   Uno de los primeros ataques con _sofisticación y planeación_ de
@@ -222,3 +224,28 @@
        de una hora. [Threat Bulletin: Critical eScan Supply Chain
        Compromise](https://www.morphisec.com/blog/critical-escan-threat-bulletin/)
        (Gorelik, 2026)
+
+     - Aprovechamos para discutir un tema no relacionado con el temario
+       actual: El día de ayer (29 de abril) salió a la luz una
+       vulnerabilidad de elevación de privilegios (local) en el kernel de
+       Linux, en todas las versiones de los últimos 9 años.
+	   
+	   La vulnerabilidad se presenta al abrir un socket cifrado/validado
+       mediante [cifrado autenticado
+       (AEAD)](https://en.wikipedia.org/wiki/Authenticated_encryption), y
+       obtiene el nombre de [Copy Fail](https://copy.fail/). Logra la
+       escalación de privilegios de forma repetible, utilizando el bug para
+       envenenar la copia en caché de un archivo ejecutable SUID, como lo
+       ilustra la [explotación
+       _prueba-de-concepto_](https://github.com/theori-io/copy-fail-CVE-2026-31431/blob/main/copy_fail_exp.py)
+       (de únicamente 732 bytes).
+	   
+	   Una segunda explotación _prueba de concepto_ es mucho más larga y
+       clara en su explicación; [modifica la versión en caché de un archivo
+       de sistema
+       (`/etc/passwd`)](https://github.com/rootsecdev/cve_2026_31431/blob/main/exploit_cve_2026_31431.py). 
+	   
+	   Vimos también un [artículo explicando los
+       detalles](https://xint.io/blog/copy-fail-linux-distributions),
+       incluyendo la discusión sobre cómo es una _divulgación responsable_
+       de una vulnerabilidad de seguridad.
