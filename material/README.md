@@ -39,6 +39,7 @@ _efectivamente_ vimos en clase, vean la “bitácora” mes a mes:
    4. Cruce de límites de confianza (XSS, CSRF)
    5. Basados en codificación
    6. Algoritmos débiles de cifrado
+   7. Ataques a / con LLMs
 
 ## *Unidad 4*: Prácticas de programación segura
 
@@ -58,4 +59,4 @@ _efectivamente_ vimos en clase, vean la “bitácora” mes a mes:
       1. Sistemas de gestión de código
       2. CI/CD
       3. Análisis estático / dinámico
-   5. El desarrollo y el ciclo de vida de los sistemas (/DevSecOps/)
+   5. El desarrollo y el ciclo de vida de los sistemas (_DevSecOps_)
