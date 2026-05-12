@@ -79,3 +79,38 @@
            objetivo
          - **Reverse engineering de prompts del sistema** mediante
            interacción
+
+## Unidad 4: Prácticas de programación segura
+
+1. `2026.05.12`
+
+	Iniciamos con la unidad 4, «Prácticas de programación segura». Si no
+    nos cuidamos, podemos caer bastante en repetir lo que vimos en las
+    unidades 1 y 2, así que… ¡busquémosle ángulos interesantes! ☺
+
+	- **Principios de diseño seguro** → Patrones de diseño. ¿Cómo hacer las
+      cosas _bien_?
+
+	  **Validación centralizada**: Servicios de validación única para
+      evitar aplicaciones con validación dispersa → middleware de
+      validación, firewalls de aplicación (WAF) → [API
+      Gateway](https://microservices.io/patterns/apigateway.html)
+      
+	  **Tokens de validación por tiempo limitado** → [Patrón «valet
+      key»](https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key).
+
+	  **_Prinicipio_ de conocimiento mínimo para datos** → Decisión de
+      diseño _consciente y documentada_ sobre _qué_ datos se almacenan, con
+      _qué nivel_ de detalle, y _por cuánto tiempo_. (¡incluir
+      automatización!) ⇒ _Mínimo privilegio_ aplicado a los datos ⇒
+      Disminuye el impacto de una brecha de datos
+	  
+    - Ojo que donde hay patrones... También hay **antipatrones** 🙁
+	  - [Seguridad por
+        obscuridad](https://cwe.mitre.org/data/definitions/656.html)
+      - [Credenciales especificadas _en
+        duro_](https://cwe.mitre.org/data/definitions/798.html) (¿y cómo
+        evitarlo?)
+      - [Verificación del lado de
+        cliente](https://cwe.mitre.org/data/definitions/602.html) de
+        seguridad del lado del servidor
