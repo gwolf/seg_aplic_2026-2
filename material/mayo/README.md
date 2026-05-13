@@ -114,3 +114,35 @@
       - [Verificación del lado de
         cliente](https://cwe.mitre.org/data/definitions/602.html) de
         seguridad del lado del servidor
+
+2. `2026.05.14`
+
+  **Características de la evolución de los lenguajes de programación**
+
+  La evolución de los lenguajes de programación y sus características de
+  seguridad no pueden comprenderse sin entender el momento en que
+  aparecieron y el estado de la técnica.
+
+  - Es necesario comprender la necesidad del _código auto-modificante_ en
+    las primeras arquitecturas y todavía hasta las que hoy en día se
+    utilizan como microcontroladores (familias 6502, Z80).
+
+    Hacia principios de los 2000, se encontró que la protección en hardware
+    evitando regiones de memoria de escritura y ejecutables al mismo tiempo
+    (_`W^X`_ o _W xor X_) resultó tan importante.
+
+  - Manejo de memoria en las distintas etapas del desarrollo de los
+    lenguajes:
+
+    1. Sin manejo de memoria, sólo un _tiradero_: Código binario directo,
+       ensamblador
+    2. Memoria gestionada manualmente: C (`malloc()` / `free()`), Fortran,
+       Pascal(?), C++ (`new()` / `delete()`)
+    3. Recolector de basura: Java, lenguajes _scripting_ en general, .NET
+    4. Gestión automática de memoria: Rust (rasgos principales:
+       _inmutabilidad_, _propiedad_, _verificador de préstamos_, _tiempos
+       de vida_)
+
+  - Consideraciones de seguridad respecto a la _inferencia_ de tipos de
+    datos
+
